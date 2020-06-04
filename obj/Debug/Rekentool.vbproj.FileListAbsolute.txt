@@ -1,0 +1,10 @@
+C:\Users\almer\source\repos\Rekentool\bin\Debug\Rekentool.exe.config
+C:\Users\almer\source\repos\Rekentool\bin\Debug\Rekentool.exe
+C:\Users\almer\source\repos\Rekentool\bin\Debug\Rekentool.pdb
+C:\Users\almer\source\repos\Rekentool\bin\Debug\Rekentool.xml
+C:\Users\almer\source\repos\Rekentool\obj\Debug\Rekentool.Form1.resources
+C:\Users\almer\source\repos\Rekentool\obj\Debug\Rekentool.Resources.resources
+C:\Users\almer\source\repos\Rekentool\obj\Debug\Rekentool.vbproj.GenerateResource.cache
+C:\Users\almer\source\repos\Rekentool\obj\Debug\Rekentool.exe
+C:\Users\almer\source\repos\Rekentool\obj\Debug\Rekentool.xml
+C:\Users\almer\source\repos\Rekentool\obj\Debug\Rekentool.pdb
