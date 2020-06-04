@@ -29,6 +29,7 @@ Partial Class Form1
         Me.vr_lvr = New System.Windows.Forms.TabPage()
         Me.Label32 = New System.Windows.Forms.Label()
         Me.GroupBox4 = New System.Windows.Forms.GroupBox()
+        Me.vr_lvr_effbar = New System.Windows.Forms.ProgressBar()
         Me.PictureBox8 = New System.Windows.Forms.PictureBox()
         Me.Label36 = New System.Windows.Forms.Label()
         Me.lvr_ploss = New System.Windows.Forms.TextBox()
@@ -51,6 +52,7 @@ Partial Class Form1
         Me.Button2 = New System.Windows.Forms.Button()
         Me.vr_svr = New System.Windows.Forms.TabPage()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.vr_svr_effbar = New System.Windows.Forms.ProgressBar()
         Me.Label37 = New System.Windows.Forms.Label()
         Me.Label25 = New System.Windows.Forms.Label()
         Me.Label24 = New System.Windows.Forms.Label()
@@ -101,6 +103,8 @@ Partial Class Form1
         Me.TabControl3 = New System.Windows.Forms.TabControl()
         Me.tr_tr = New System.Windows.Forms.TabPage()
         Me.GroupBox6 = New System.Windows.Forms.GroupBox()
+        Me.Label46 = New System.Windows.Forms.Label()
+        Me.Label45 = New System.Windows.Forms.Label()
         Me.PictureBox13 = New System.Windows.Forms.PictureBox()
         Me.Label42 = New System.Windows.Forms.Label()
         Me.Label41 = New System.Windows.Forms.Label()
@@ -120,6 +124,9 @@ Partial Class Form1
         Me.Label38 = New System.Windows.Forms.Label()
         Me.tr_ges = New System.Windows.Forms.TabPage()
         Me.info = New System.Windows.Forms.TabPage()
+        Me.Button4 = New System.Windows.Forms.Button()
+        Me.Label48 = New System.Windows.Forms.Label()
+        Me.Label47 = New System.Windows.Forms.Label()
         Me.PictureBox11 = New System.Windows.Forms.PictureBox()
         Me.RichTextBox1 = New System.Windows.Forms.RichTextBox()
         Me.PictureBox10 = New System.Windows.Forms.PictureBox()
@@ -129,13 +136,6 @@ Partial Class Form1
         Me.tr_tr_beta = New System.Windows.Forms.NumericUpDown()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.vr_lvr_effbar = New System.Windows.Forms.ProgressBar()
-        Me.vr_svr_effbar = New System.Windows.Forms.ProgressBar()
-        Me.Label45 = New System.Windows.Forms.Label()
-        Me.Label46 = New System.Windows.Forms.Label()
-        Me.Label47 = New System.Windows.Forms.Label()
-        Me.Label48 = New System.Windows.Forms.Label()
-        Me.Button4 = New System.Windows.Forms.Button()
         Me.TabControl1.SuspendLayout()
         Me.vr.SuspendLayout()
         Me.TabControl2.SuspendLayout()
@@ -257,6 +257,15 @@ Partial Class Form1
         Me.GroupBox4.TabIndex = 1
         Me.GroupBox4.TabStop = False
         Me.GroupBox4.Text = "Uitvoer"
+        '
+        'vr_lvr_effbar
+        '
+        Me.vr_lvr_effbar.BackColor = System.Drawing.SystemColors.Control
+        Me.vr_lvr_effbar.Location = New System.Drawing.Point(331, 65)
+        Me.vr_lvr_effbar.Name = "vr_lvr_effbar"
+        Me.vr_lvr_effbar.Size = New System.Drawing.Size(100, 5)
+        Me.vr_lvr_effbar.Step = 1
+        Me.vr_lvr_effbar.TabIndex = 35
         '
         'PictureBox8
         '
@@ -515,6 +524,15 @@ Partial Class Form1
         Me.GroupBox2.TabIndex = 5
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Uitvoer"
+        '
+        'vr_svr_effbar
+        '
+        Me.vr_svr_effbar.BackColor = System.Drawing.SystemColors.Control
+        Me.vr_svr_effbar.Location = New System.Drawing.Point(326, 266)
+        Me.vr_svr_effbar.Name = "vr_svr_effbar"
+        Me.vr_svr_effbar.Size = New System.Drawing.Size(100, 5)
+        Me.vr_svr_effbar.Step = 1
+        Me.vr_svr_effbar.TabIndex = 36
         '
         'Label37
         '
@@ -1051,6 +1069,24 @@ Partial Class Form1
         Me.GroupBox6.TabStop = False
         Me.GroupBox6.Text = "Uitvoer"
         '
+        'Label46
+        '
+        Me.Label46.AutoSize = True
+        Me.Label46.Location = New System.Drawing.Point(424, 43)
+        Me.Label46.Name = "Label46"
+        Me.Label46.Size = New System.Drawing.Size(14, 13)
+        Me.Label46.TabIndex = 11
+        Me.Label46.Text = "A"
+        '
+        'Label45
+        '
+        Me.Label45.AutoSize = True
+        Me.Label45.Location = New System.Drawing.Point(424, 16)
+        Me.Label45.Name = "Label45"
+        Me.Label45.Size = New System.Drawing.Size(14, 13)
+        Me.Label45.TabIndex = 10
+        Me.Label45.Text = "A"
+        '
         'PictureBox13
         '
         Me.PictureBox13.Location = New System.Drawing.Point(57, 16)
@@ -1250,6 +1286,33 @@ Partial Class Form1
         Me.info.Text = "Info"
         Me.info.UseVisualStyleBackColor = True
         '
+        'Button4
+        '
+        Me.Button4.Location = New System.Drawing.Point(622, 408)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(75, 23)
+        Me.Button4.TabIndex = 5
+        Me.Button4.Text = "Update"
+        Me.Button4.UseVisualStyleBackColor = True
+        '
+        'Label48
+        '
+        Me.Label48.AutoSize = True
+        Me.Label48.Location = New System.Drawing.Point(547, 266)
+        Me.Label48.Name = "Label48"
+        Me.Label48.Size = New System.Drawing.Size(133, 13)
+        Me.Label48.TabIndex = 4
+        Me.Label48.Text = "Rekentool Elektrotechniek"
+        '
+        'Label47
+        '
+        Me.Label47.AutoSize = True
+        Me.Label47.Location = New System.Drawing.Point(288, 413)
+        Me.Label47.Name = "Label47"
+        Me.Label47.Size = New System.Drawing.Size(106, 13)
+        Me.Label47.TabIndex = 3
+        Me.Label47.Text = "Almer de Vries | 2020"
+        '
         'PictureBox11
         '
         Me.PictureBox11.Image = CType(resources.GetObject("PictureBox11.Image"), System.Drawing.Image)
@@ -1330,69 +1393,6 @@ Partial Class Form1
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(100, 20)
         Me.TextBox1.TabIndex = 0
-        '
-        'vr_lvr_effbar
-        '
-        Me.vr_lvr_effbar.BackColor = System.Drawing.SystemColors.Control
-        Me.vr_lvr_effbar.Location = New System.Drawing.Point(331, 65)
-        Me.vr_lvr_effbar.Name = "vr_lvr_effbar"
-        Me.vr_lvr_effbar.Size = New System.Drawing.Size(100, 5)
-        Me.vr_lvr_effbar.Step = 1
-        Me.vr_lvr_effbar.TabIndex = 35
-        '
-        'vr_svr_effbar
-        '
-        Me.vr_svr_effbar.BackColor = System.Drawing.SystemColors.Control
-        Me.vr_svr_effbar.Location = New System.Drawing.Point(326, 266)
-        Me.vr_svr_effbar.Name = "vr_svr_effbar"
-        Me.vr_svr_effbar.Size = New System.Drawing.Size(100, 5)
-        Me.vr_svr_effbar.Step = 1
-        Me.vr_svr_effbar.TabIndex = 36
-        '
-        'Label45
-        '
-        Me.Label45.AutoSize = True
-        Me.Label45.Location = New System.Drawing.Point(424, 16)
-        Me.Label45.Name = "Label45"
-        Me.Label45.Size = New System.Drawing.Size(14, 13)
-        Me.Label45.TabIndex = 10
-        Me.Label45.Text = "A"
-        '
-        'Label46
-        '
-        Me.Label46.AutoSize = True
-        Me.Label46.Location = New System.Drawing.Point(424, 43)
-        Me.Label46.Name = "Label46"
-        Me.Label46.Size = New System.Drawing.Size(14, 13)
-        Me.Label46.TabIndex = 11
-        Me.Label46.Text = "A"
-        '
-        'Label47
-        '
-        Me.Label47.AutoSize = True
-        Me.Label47.Location = New System.Drawing.Point(288, 413)
-        Me.Label47.Name = "Label47"
-        Me.Label47.Size = New System.Drawing.Size(106, 13)
-        Me.Label47.TabIndex = 3
-        Me.Label47.Text = "Almer de Vries | 2020"
-        '
-        'Label48
-        '
-        Me.Label48.AutoSize = True
-        Me.Label48.Location = New System.Drawing.Point(547, 266)
-        Me.Label48.Name = "Label48"
-        Me.Label48.Size = New System.Drawing.Size(133, 13)
-        Me.Label48.TabIndex = 4
-        Me.Label48.Text = "Rekentool Elektrotechniek"
-        '
-        'Button4
-        '
-        Me.Button4.Location = New System.Drawing.Point(622, 408)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(75, 23)
-        Me.Button4.TabIndex = 5
-        Me.Button4.Text = "Update"
-        Me.Button4.UseVisualStyleBackColor = True
         '
         'Form1
         '
