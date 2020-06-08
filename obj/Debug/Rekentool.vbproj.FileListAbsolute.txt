@@ -8,3 +8,4 @@ C:\Users\almer\source\repos\Rekentool\obj\Debug\Rekentool.vbproj.GenerateResourc
 C:\Users\almer\source\repos\Rekentool\obj\Debug\Rekentool.exe
 C:\Users\almer\source\repos\Rekentool\obj\Debug\Rekentool.xml
 C:\Users\almer\source\repos\Rekentool\obj\Debug\Rekentool.pdb
+C:\Users\almer\source\repos\Rekentool\obj\Debug\Rekentool.vbprojAssemblyReference.cache

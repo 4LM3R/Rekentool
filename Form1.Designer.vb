@@ -123,6 +123,12 @@ Partial Class Form1
         Me.PictureBox12 = New System.Windows.Forms.PictureBox()
         Me.Label38 = New System.Windows.Forms.Label()
         Me.tr_ges = New System.Windows.Forms.TabPage()
+        Me.tr_bes = New System.Windows.Forms.TabPage()
+        Me.TabPage2 = New System.Windows.Forms.TabPage()
+        Me.amp = New System.Windows.Forms.TabPage()
+        Me.TabControl4 = New System.Windows.Forms.TabControl()
+        Me.TabPage1 = New System.Windows.Forms.TabPage()
+        Me.TabPage3 = New System.Windows.Forms.TabPage()
         Me.info = New System.Windows.Forms.TabPage()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Label48 = New System.Windows.Forms.Label()
@@ -172,6 +178,8 @@ Partial Class Form1
         CType(Me.num_tr_beta, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.num_tr_iB, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox12, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.amp.SuspendLayout()
+        Me.TabControl4.SuspendLayout()
         Me.info.SuspendLayout()
         CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -185,6 +193,7 @@ Partial Class Form1
         '
         Me.TabControl1.Controls.Add(Me.vr)
         Me.TabControl1.Controls.Add(Me.tv)
+        Me.TabControl1.Controls.Add(Me.amp)
         Me.TabControl1.Controls.Add(Me.info)
         Me.TabControl1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TabControl1.Location = New System.Drawing.Point(0, 0)
@@ -1031,6 +1040,8 @@ Partial Class Form1
         '
         Me.TabControl3.Controls.Add(Me.tr_tr)
         Me.TabControl3.Controls.Add(Me.tr_ges)
+        Me.TabControl3.Controls.Add(Me.tr_bes)
+        Me.TabControl3.Controls.Add(Me.TabPage2)
         Me.TabControl3.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TabControl3.Location = New System.Drawing.Point(3, 3)
         Me.TabControl3.Name = "TabControl3"
@@ -1271,6 +1282,65 @@ Partial Class Form1
         Me.tr_ges.Text = "GES"
         Me.tr_ges.UseVisualStyleBackColor = True
         '
+        'tr_bes
+        '
+        Me.tr_bes.Location = New System.Drawing.Point(4, 22)
+        Me.tr_bes.Name = "tr_bes"
+        Me.tr_bes.Size = New System.Drawing.Size(691, 408)
+        Me.tr_bes.TabIndex = 2
+        Me.tr_bes.Text = "BES"
+        Me.tr_bes.UseVisualStyleBackColor = True
+        '
+        'TabPage2
+        '
+        Me.TabPage2.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage2.Name = "TabPage2"
+        Me.TabPage2.Size = New System.Drawing.Size(691, 408)
+        Me.TabPage2.TabIndex = 3
+        Me.TabPage2.Text = "TabPage2"
+        Me.TabPage2.UseVisualStyleBackColor = True
+        '
+        'amp
+        '
+        Me.amp.Controls.Add(Me.TabControl4)
+        Me.amp.Location = New System.Drawing.Point(4, 22)
+        Me.amp.Name = "amp"
+        Me.amp.Size = New System.Drawing.Size(705, 440)
+        Me.amp.TabIndex = 3
+        Me.amp.Text = "Op-Amps"
+        Me.amp.UseVisualStyleBackColor = True
+        '
+        'TabControl4
+        '
+        Me.TabControl4.Controls.Add(Me.TabPage1)
+        Me.TabControl4.Controls.Add(Me.TabPage3)
+        Me.TabControl4.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.TabControl4.Location = New System.Drawing.Point(0, 0)
+        Me.TabControl4.Name = "TabControl4"
+        Me.TabControl4.SelectedIndex = 0
+        Me.TabControl4.Size = New System.Drawing.Size(705, 440)
+        Me.TabControl4.TabIndex = 0
+        '
+        'TabPage1
+        '
+        Me.TabPage1.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage1.Name = "TabPage1"
+        Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage1.Size = New System.Drawing.Size(697, 414)
+        Me.TabPage1.TabIndex = 0
+        Me.TabPage1.Text = "TabPage1"
+        Me.TabPage1.UseVisualStyleBackColor = True
+        '
+        'TabPage3
+        '
+        Me.TabPage3.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage3.Name = "TabPage3"
+        Me.TabPage3.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage3.Size = New System.Drawing.Size(697, 414)
+        Me.TabPage3.TabIndex = 1
+        Me.TabPage3.Text = "TabPage3"
+        Me.TabPage3.UseVisualStyleBackColor = True
+        '
         'info
         '
         Me.info.Controls.Add(Me.Button4)
@@ -1307,7 +1377,7 @@ Partial Class Form1
         'Label47
         '
         Me.Label47.AutoSize = True
-        Me.Label47.Location = New System.Drawing.Point(288, 413)
+        Me.Label47.Location = New System.Drawing.Point(299, 413)
         Me.Label47.Name = "Label47"
         Me.Label47.Size = New System.Drawing.Size(106, 13)
         Me.Label47.TabIndex = 3
@@ -1451,6 +1521,8 @@ Partial Class Form1
         CType(Me.num_tr_beta, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.num_tr_iB, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox12, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.amp.ResumeLayout(False)
+        Me.TabControl4.ResumeLayout(False)
         Me.info.ResumeLayout(False)
         Me.info.PerformLayout()
         CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).EndInit()
@@ -1576,4 +1648,10 @@ Partial Class Form1
     Friend WithEvents Label47 As Label
     Friend WithEvents Label48 As Label
     Friend WithEvents Button4 As Button
+    Friend WithEvents tr_bes As TabPage
+    Friend WithEvents TabPage2 As TabPage
+    Friend WithEvents amp As TabPage
+    Friend WithEvents TabControl4 As TabControl
+    Friend WithEvents TabPage1 As TabPage
+    Friend WithEvents TabPage3 As TabPage
 End Class

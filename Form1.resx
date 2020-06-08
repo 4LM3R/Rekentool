@@ -3026,17 +3026,13 @@
   <data name="RichTextBox1.Text" xml:space="preserve">
     <value>Gemaakt door Almer de Vries
 Voor NHL Stenden Hogeschool Elektrotechniek
-Versie 1.1 (04
-062020)
+Versie 1.2 (04062020)
 
 ChangeLog:
-+Transistor
-+ Verbeterde "Info" tab
++ Opamp kopsectie
+     + Deze kopsectie wordt later gevuld
 + Bugs om later op te lossen
 - Bugs die makkelijk op te waren lossen
-
-! Opmerkingen !
-Het kan in deze versie zijn dat van tijd tot tijd de afbeeldingen verdwijnen. Dit wordt nog onderzocht
 </value>
   </data>
   <data name="PictureBox10.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">

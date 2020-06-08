@@ -134,7 +134,7 @@
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
         MessageBox.Show("Voor updaten: Rekentool/Bin/Debug/Rekentool.exe")
-        Dim url As String = "https://github.com/4LM3R"
+        Dim url As String = "https://github.com/4LM3R/Rekentool/tree/master/bin/Debug"
         Process.Start(url)
     End Sub
 End Class
